@@ -1,0 +1,167 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: none;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.navbar{
+  display: flex;
+  margin: 20px 50px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo{
+  width: 200px;
+  align-items: left;
+}
+
+.menu{
+  display: flex;
+  gap: 30px;
+}
+
+.menu a{
+  text-decoration: none;
+  color: #000;
+  font-size: 14px;
+}
+
+.btn-group button:nth-child(1){
+  display: flex;
+  gap: 30px;
+  text-align : right;
+  background:url(./Images/pretty\ pink.webp);
+  color: black;
+  padding: 10px 20px;
+  border: none;
+  border-bottom-left-radius: 20px;
+  border-top-right-radius: 20px;   
+}
+
+.body{
+  width: 100%;
+  height: 495px;
+  border: 0px solid black;
+}
+ 
+.left_box{
+  width: 40%;
+  height: 100%;
+  float: left;
+  box-sizing: border-box;
+  padding: 27px;
+}
+ 
+.box1{
+  box-sizing: border-box;
+  padding: 20px;
+  text-align: center;
+  height: 50%;
+  border: 2px blue;
+  width: 90%;
+  border-radius: 25px;
+  margin-bottom: 15px;
+  box-shadow: 0 4px 10px palevioletred;  
+}
+
+h1{
+  margin-top: 10px;
+  margin-bottom: 30px;
+  font-size: 30px;
+  font-family: 'Times New Roman', Times, serif;
+  color: black;
+}
+
+p{
+  font-size: 20px;
+  color: black;
+  text-align: center;
+  margin-top: 5px;
+  margin-bottom: 25px;
+}
+
+p a{
+  font-size: 20px;
+  color: black;
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 5px;
+}
+ 
+.box2{
+  box-sizing: border-box;
+  padding: 20px;
+  text-align: center;
+  height: 50%;
+  border: 2px blue;
+  width: 90%;
+  border-radius: 25px;
+  margin-bottom: 15px;
+  box-shadow: 0 4px 10px palevioletred;
+}
+ 
+.right_box{
+  width: 60%;
+  height: 100%;
+  float: left;
+  box-sizing: border-box;
+  padding: 25px;
+}
+ 
+.box3{
+  box-sizing: none;
+  padding: 0px ;
+  text-align: center;
+  height: 20%;
+  border: 0px blue;
+  width: 95%;
+  border-radius: 20px;
+  margin-bottom: 15px;
+  box-shadow: 0 4px 10px palevioletred;
+}
+ 
+.box4{
+  border: 0px ;
+  width: 95%;
+  height: 23%;
+  margin-bottom: 29px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px black;
+}
+ 
+.box5{
+  border: 0px solid black;
+  border-radius: 10px;
+  width: 95%;
+  box-shadow: 0 4px 10px black;
+  height: 42%;
+}
+ 
+   input{
+    width: 99%;
+    height: 95%;
+    border-radius: 10px;
+   }
+ 
+   button{
+    margin-top: 18px;
+    padding: 7px;
+    border: none;
+    border-radius: 10px;
+    font-size: 15px;
+    color: palevioletred;
+ 
+   }
+ 
+   i{
+    font-size: 30px;
+   }
+   body{
+    background: url(./Images/pretty\ pink.webp);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+    background-attachment: fixed;
+}
